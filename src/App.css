@@ -1,0 +1,120 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  border: 1px solid #c0c0c0;
+}
+.product-item {
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.cart-container {
+  border: 1px solid #c0c0c0;
+  margin-top: 40px;
+} 
+
+.cart-item {
+  align-items: center;
+  text-align: left;
+}
+
+.cart-item input{
+  width: 10%;
+  padding-left: 10px;
+}
+.all-cart{
+  margin: 10px
+}
+.total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.name{
+  font-size: 14px;
+  font-weight: bold;
+}
+.price{
+  margin-top: 20px;
+}
+.fa-cart-shopping{
+  color: white;
+  background-color: rgb(251, 114, 114);
+  padding: 5px;
+  border-radius: 2px;
+}
+.price-cart{
+  font-weight: bold;
+}
+.qtt{
+  font-size: 14px;
+}
+.click{
+  padding: 1px;
+  background-color: white;
+  width: 30px;
+  border-radius: 0;
+  border: 1px solid #c0c0c0;
+}
+.cart-item input{
+  border: 1px solid #c0c0c0;
+  outline: none;
+}
+h3{
+  padding-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 10px;
+}
+hr{
+  margin: 30px 40px;
+}
+.tt{
+  margin-right: 150px;
+  color: rgb(251, 114, 114);
+  font-weight: bold;
+}
