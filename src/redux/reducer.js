@@ -43,7 +43,7 @@ const rootReducer = (state = intialValue, action) => {
           console.log(removeItem);
           cart = [...removeItem];
         }else{
-            cart = [...cart]
+            cart[index].quantity = 1
         }
       }
       return {
